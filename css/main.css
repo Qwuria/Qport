@@ -66,11 +66,16 @@ header div ul li a {
     width: 100%;
     height: 80vh;
     z-index: 9;
+    /* background-color: #333; */
+    background: url('../images/title.png') center center /cover no-repeat;
     position: relative;
-    background-color: #333;
     color: #fff;
     text-align: center;
 } 
+.main_visual video {
+    width: 100%;
+    height: 100%;
+}
 
 .main_visual .mv_t { 
     width: 100%;
@@ -87,6 +92,7 @@ header div ul li a {
     font-size: 50px;
     margin-top: 30px;
     color: rgba(255, 255, 255, .8);
+    text-align: center;
 }
 
 
@@ -118,7 +124,7 @@ header div ul li a {
  
 .profile .about {
     width: 58%;
-    background-color: rgb(240, 240, 240);
+    background: rgba(red, green, blue, alpha)
     height: 100%; 
     padding: 50px;
     box-sizing: border-box;
@@ -541,7 +547,7 @@ footer ul li {
     height: 50px;
     line-height: 50px;
     /* display: inline-block; */
-    border-radius: 50px;
+    /* border-radius: 50px; */
     border: 1px solid #fff;
 }
 footer ul li:nth-child(1) {
