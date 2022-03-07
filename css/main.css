@@ -64,13 +64,13 @@ header div ul li a {
 /* main_visual 메인비주얼  ******************************/
 .main_visual { 
     width: 100%;
-    height: 80vh;
+    height: 51vw;
     z-index: 9;
     /* background-color: #333; */
     background: url('../images/title.png') center center /cover no-repeat;
     position: relative;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
 } 
 .main_visual video {
     width: 100%;
@@ -124,7 +124,7 @@ header div ul li a {
  
 .profile .about {
     width: 58%;
-    background: rgba(red, green, blue, alpha)
+    background: rgba(red, green, blue, alpha);
     height: 100%; 
     padding: 50px;
     box-sizing: border-box;
@@ -265,7 +265,7 @@ header div ul li a {
 }
 
 .v2 {
-    background-color: rgba(241, 241, 241, 0.603);
+    background-color: rgba(230, 230, 230, 0.527);
 }
 
 
@@ -398,6 +398,7 @@ https://codesandbox.io/s/jke0r?file=/index.html:686-1415
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin: 5px;
+    border-radius: 15px;
     /* display: inline-block; */
 }
 .youtube_list .motion_cate li.on {
