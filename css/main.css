@@ -567,7 +567,7 @@ footer p {
 ***********************************************/
 @media screen and (max-width: 767px) {
     h3 {text-align: left;   font-size: 35px;}
-    .main_visual {height: 75vh;}
+    .main_visual {height: 51vw;}
     .main_visual .mv_t h1 {font-size: 50px; line-height: 1.2;}
     .main_visual .mv_t p {font-size: 30px; margin-top: 10px;}
 
